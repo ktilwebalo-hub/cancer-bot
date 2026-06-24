@@ -7,11 +7,18 @@ load_dotenv(override=True)
 
 def format_context(docs):
     """Format retrieved context for display."""
+    if not docs:
+        return "No retrieved context available. Please ensure the knowledge base is properly loaded."
+    
     result = ""
-    for doc in docs:
+    for i, doc in enumerate(docs):
         source = doc.metadata.get("filename", "Unknown")
         doc_type = doc.metadata.get("doc_type", "General")
-        result += f"📄 Source: {source} ({doc_type})\n\n{doc.page_content}\n\n{'-'*50}\n\n"
+        # Truncate content for display if too long
+        content = doc.page_content
+        if len(content) > 500:
+            content = content[:500] + "..."
+        result += f"📄 **Document {i+1}:** {source} ({doc_type})\n\n{content}\n\n{'-'*50}\n\n"
     return result
 
 
@@ -62,6 +69,7 @@ def main():
                     interactive=False
                 )
 
+        # Fixed: Only use message.submit, not chatbot.submit
         message.submit(chat, inputs=[message, chatbot], outputs=[message, chatbot, context_box])
 
         gr.Markdown("""
