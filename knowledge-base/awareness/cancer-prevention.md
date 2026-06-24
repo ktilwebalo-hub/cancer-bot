@@ -2,7 +2,7 @@
 
 ## Lifestyle Factors
 - Maintain a healthy weight
-- Exercise regularly (at least 150 minutes of moderate activity per week)
+- Exercise regularly ( NB: at least 150 minutes of moderate activity per week)
 - Eat a diet rich in fruits, vegetables, and whole grains
 - Limit processed foods and red meat consumption
 - Avoid tobacco products

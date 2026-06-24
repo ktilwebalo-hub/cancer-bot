@@ -4,7 +4,7 @@
 - Surgery: Removal of cancerous tumors
 - Chemotherapy: Drugs to kill cancer cells
 - Radiation therapy: High-energy rays to destroy cancer cells
-- Immunotherapy: Boosting immune system to fight cancer
+- Immunotherapy: Boosting immune system to fight cancers
 - Targeted therapy: Drugs targeting specific cancer cell features
 - Hormone therapy: Blocking hormones that fuel certain cancers
 

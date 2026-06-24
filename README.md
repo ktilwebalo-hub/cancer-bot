@@ -20,3 +20,4 @@ Before launching the Space, add these secrets in Hugging Face:
 - `OPENAI_API_KEY`
 
 If you rebuild the knowledge base, run `uv run ingest.py` locally first so the cached chunks stay in sync with the markdown files.
+# required

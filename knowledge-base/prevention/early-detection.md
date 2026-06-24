@@ -1,7 +1,7 @@
 # Early Detection and Screening
 
 ## Importance of Early Detection
-Early detection of cancer greatly increases treatment success rates and survival chances.
+Early detection of cancer greatly increases treatment success rates and survival chances most of the time.
 
 ## Common Screening Tests
 - Mammography (breast cancer)

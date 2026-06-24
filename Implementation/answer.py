@@ -137,7 +137,7 @@ def fetch_context(query: str) -> list[Document]:
 
 
 def answer_question(query: str, history=None):
-    """Generate answer using retrieved context and conversation history."""
+    """Generate answer using retrieved context and conversation history .."""
     resolved_query = resolve_query(query, history or [])
     docs = fetch_context(resolved_query)
     

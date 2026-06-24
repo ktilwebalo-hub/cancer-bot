@@ -20,6 +20,7 @@
 - Local hospitals and clinics
 - Religious and spiritual organizations
 - Online forums and communities
+- Communities
 
 ## Self-Care Tips
 - Prioritize rest and relaxation

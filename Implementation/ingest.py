@@ -77,4 +77,4 @@ if __name__ == "__main__":
 
     print(f"💾 Writing cache to {OUTPUT_FILE.name}...")
     write_cache(vectors)
-    print(f"🚀 Ingestion complete: {len(vectors)} cached chunks written")
+    print(f"🚀 Ingestion completed: {len(vectors)} cached chunks written")
